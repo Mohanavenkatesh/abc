@@ -1,0 +1,806 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  font-family: "Quicksand";
+  font-weight: 500;
+  padding-top: 20px;
+  text-transform: uppercase;
+  justify-content: center;
+ 
+}
+.image{
+  width: 170px;
+  height: 47px;
+}
+ .navbar-nav{
+    gap: 30px;
+    margin-left: 10px;
+    
+}
+ 
+.carousel-inner img{
+    width: 100%;
+    background-size: cover;
+    height: auto;
+}
+.text-container{
+    display: block;
+    justify-content: center;
+    position: absolute;
+    color: black;
+    left:60%;
+    top: 25%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 550px;
+}
+.heading{
+    color:rgb(64, 64, 64);
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+    padding-top: 15px;
+}
+.heading1{
+     font-family: "Playfair Display";
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 15px;
+    
+    line-height: 65px;
+    
+    
+}
+.d-block{
+  width: 100%;
+
+}
+.heading-content{
+   font-family: "Playfair Display";
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 15px;
+    text-transform: unset;
+    line-height: 1.5;
+    color: #000000;
+}
+.horizontal{
+    width: 70px;
+    color: black;
+    margin: 0px 0px 15px;
+}
+.text-container .button{
+    margin-top: 20px;
+}
+.button{
+    color: black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: "poppins,sans-serif";
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #95a674;
+    color: white;
+}
+.section{
+  color:#98A86D;
+  line-height: 1.2;
+}
+.contents{
+  font-size: 16px;
+  color: #a8a8a8;
+  font-weight: 500;
+  width: 100%;
+  margin: 20px auto 0;
+  font-family: "Quicksand";
+}
+ 
+
+.bg-img{
+  background: url("/img/bg_collectionv2-final.jpg");
+  /* background: url("/img/banner6.2\ \(1\).jpg");
+   */
+  width:100%;
+  background-attachment: fixed;
+  background-size: cover;
+  height:600px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+
+}
+
+.collection{
+  margin-top: 100px;
+  
+  
+}
+.collection .img1{
+ /* clip-path: circle(50% at 50% 50%);*/
+ border-radius: 50%;
+ width: 250px;
+ height: 250px;
+border:12px solid #ffffff;
+transition: 0.5s ease;
+
+
+}
+ .img1:hover{
+  transform:translateY(-8px);
+  
+
+}
+.img-txt{
+  width: 161px;
+  height: 48px;
+  background-color: #fff;
+  /* font-family: "Quicksand"; */
+ 
+  font-family: "Dancing Script", serif;
+
+ 
+  font-weight: 500;
+  font-size: 25px;
+  padding: 5px 10px 8px;
+  margin-top: 15px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.head-text{
+  margin-top: 50px;
+}
+
+  
+
+
+
+ .box{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  border: 2px solid #fff;
+}
+img{
+  width: 100%;
+  height: auto;
+  transition: all  linear 0.7s;
+}
+img.hover-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.box:hover img{
+   opacity: 0;
+}
+.box:hover img.hover-img{
+  opacity: 1;
+} 
+
+.tc-container img{
+  width: 300px;
+  height: auto;
+}
+.top-img{
+  position: absolute;
+  left:8%;
+  top:29%;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: all 0.7s ease;
+  background-size: cover;
+}
+.top-img:hover{
+  opacity: 1;
+
+}
+
+.cards-shop{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Quicksand";
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+    letter-spacing: -1px;
+    text-transform: none;
+    
+}
+.cards-shop1{
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    padding-top: 15px;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+ 
+/* cards */
+
+.a-style{
+font-size: 16px;
+font-family: "Poppins",sans-serif;
+}
+.card-txt{
+font-size: 18px;
+font-family: "Quicksand";
+color: #000000;
+}
+.a-style a{
+font-size: 16px;
+font-weight: 400px;
+
+/* color:rgb(252 101 57) !important ; */
+}
+.a-style1{
+font-size: 16px;
+color:#98a86d ;
+font-family: "Poppins",sans-serif;
+}
+.a-style1 a{
+    font-family: "Quicksand";
+    font-size: 15px;
+    font-weight: 700;
+    color: #98a86d;
+}
+.side-txt{
+margin-left: 160px;
+}
+.icons{
+display: block;
+opacity: 0;
+position: absolute;
+top: 15%;
+/* margin-left: -100px; */
+
+width: 25px;
+height: 25px;
+} 
+.cards:hover .icons{
+opacity: 1;
+margin-left:1%;
+margin-top: 11%;
+transition: 0.7s;
+
+}
+.sale{
+background-color: transparent;
+color: black;
+font-size: 15px;
+font-weight: bold;
+font-family: "Poppins",sans-serif;
+width: 70px;
+border-style: none;
+position: absolute;
+display: block;
+top: 30%;
+margin-left: 15%;
+}
+.sale1{
+background-color:white;
+color: black;
+font-size: 16px;
+font-weight: bold;
+font-family: "Poppins",sans-serif;
+width: 50px;
+border-style: none;
+position: absolute;
+display: block;
+top: 30%;
+margin-left: 1%;
+}
+
+.product-inner-box .icons{
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  top: 5%;
+  transition: all 0.2s ease-in-out,transform 0.2s ease-in-out,opacity 0.2s ease-in-out;
+
+}
+.product-inner-box .icons a{
+  width: 50px;
+  height: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #fff;
+}
+.product-inner-box .onsale .badge{
+  background: #000000;
+  font-size: 12px;
+  padding: 5px 14px;
+  top: 0px;
+  position: absolute;
+
+}
+.product-inner-box .onsale .badge:before{
+  border-width: 10px 0px 0px 10px;
+  border-color: transparent transparent transparent #000;
+  content: "";
+  position: absolute;
+  right: -8px;
+  width: 0;
+  bottom: 0;
+  border-style: solid;
+}
+.product-inner-box .onsale .badge:after{
+  border-width: 10px 8px 0 10px;
+  border-color: #000 transparent transparent ;
+  content: "";
+  position: absolute;
+  right: -8px;
+  width: 0;
+  top: 0;
+  border-style: solid;
+}
+.imgt{
+  width:100%;
+  background-size: cover;
+  height:600px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+.cd{
+    padding-bottom: 50px;
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+  }
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 150px;
+}
+.banner{
+  color:black;
+  font-family: "Quicksand";
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 18px;
+  letter-spacing: 4px;
+  padding-top: 15px;
+}
+.banner1{
+  color:black;
+  font-family: "Quicksand";
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  letter-spacing: 4px;
+  padding-top: 80px;
+}
+.texts{
+ background-color: #fff;
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.centered::after{
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    bottom: -30px;
+    left: -30px;
+    border: 4px solid #fff
+}
+.card-bod{
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 70px;
+  /* margin: 5px 20px 30px; */
+}
+.card-title{
+  font-family: "Anton", sans-serif;
+}
+.card-ti{
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-size: 2rem;
+  
+  /* margin: 50px 50px 30px; */
+  color: #fff;
+
+}
+.card-te{
+  color: #fff;
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: "Quicksand";
+}
+.img-fluid{
+   width: 620px;
+   height: 435px;
+   margin-right: 10px;
+   
+   }
+   .about{
+    padding-top: 100px;
+   }
+
+.cmd {
+  height: auto;
+  width: 100%;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+ .bg{
+  background: url("/img/banner5.1.1.jpg");
+  width: 100%;
+  height: 435px;
+  background-repeat: no-repeat;
+  background-size: cover ;
+} 
+.button-cls{
+  color: #98A86D;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-family: "Quicksand";
+  cursor: pointer;
+  margin: 20px 0px 0px;
+
+}
+.button-cls:hover{
+  background-color:#98A86D;
+  color: white;
+
+}
+.logos{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px; 
+  
+  
+}
+.scroll-top{
+  position:fixed;
+  bottom: 2.3rem;
+  right: 2.3rem;
+ 
+
+}
+.scroll-top i{
+  background:#95a674;
+  color: white;
+  font-size: 22px;
+  padding: 12px;
+  border-radius: 30px;
+}
+.logo1{
+  width: 100px;
+  
+}
+.logos .logo1{
+  gap: 10px;
+}
+.logo1:hover{
+  color:whitesmoke;
+  opacity: .5;
+  transition: all .3s ease;
+}
+.picture{
+  padding-top: 50px;
+}
+.image-container{
+  columns:  5 100px;
+  padding-top: 100px;
+  gap: 0px;
+   
+  
+}
+.image-container .img{
+   margin-bottom: 10px;
+   
+} 
+.imag {
+  padding-right:200px;
+
+}
+.img6{
+  width: 600px;
+  
+
+}
+.img6:hover{
+  opacity: 1;
+  transition: all 0.7s ease;
+
+}
+.cd .im{
+    width: 100%;
+    /* margin-top: 40px; */
+}
+.im{
+   display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 10px; 
+  
+ 
+}
+.div{
+    margin-top: 80px;
+    padding-left: 80px;
+    color: #95a674;
+    font-family: EB Garamond;
+    font-size: 22px;
+    line-height: 72px;
+    font-weight: 300;
+    font-style: italic;
+    /* margin: 0px auto -6px;*/
+  }
+p{
+  font-size: 15px;
+  font-family: "Nunito Sans" , sans-serif ;
+  color: #3d3d3d;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 15px 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  padding-left: 0;
+}
+
+input:focus{
+  outline: none;
+}
+a:hover,
+a:focus{
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+
+
+.footer{
+  background:white;
+  padding-top: 70px;
+}
+.footer-about{
+  margin-bottom: 30px;
+}
+.footer-about .footer-logo {
+  margin-bottom: 30px;
+  width:200px;
+}
+.footer-about p{
+  color: #b7b7b7;
+  margin-bottom: 30px;
+}
+.footer-widget{
+  margin-bottom: 30px;
+}
+.footer-widget h6{
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.footer-widget ul li{
+  line-height: 36px;
+  list-style: none;
+}
+.footer-widget ul li a{
+  color: #b7b7b7;
+  font-size: 15px;
+}
+.footer-widget ul li a:hover{
+  color: #e53637;
+}
+.footer-widget .footer-newslatter p{
+  color: #b7b7b7;
+}
+.footer-widget .footer-newslatter form{
+  position: relative;
+}
+.footer-widget .footer-newslatter form input{
+  width: 100%;
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid black;
+}
+.footer-widget .footer-newslatter form input::placeholder{
+  color: #b7b7b7;
+}
+.footer-widget .footer-newslatter form button{
+  color: #b7b7b7;
+  font-size: 16px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+.footer-copyright-text{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+.footer-copyright-text p{
+  color: #b7b7b7;
+  margin-bottom: 0;
+}
+.footer-copyright-text p i{
+  color: #e53637;
+}
+.footer-copyright-text p a{
+  color: #e53637;
+}
+
+.video-sample .video-box{
+  margin-left: 200px;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+    .navbar{
+     width: 100%;
+    }
+  
+  .carousel-inner img{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        height: 300px;
+        
+    }
+    .text-container{
+        display: block;
+        justify-content: center;
+        position: absolute;
+        color: black;
+        right: 2%;
+        top: 3%;
+        width: 550px;
+       
+    }
+      .heading{
+        color: rgb(36,34,34);
+        font-size: 8px;
+        font-family: "poppins,sans-serif";
+        line-height: 10px;
+      }
+      .heading1{
+        color: black;
+        font-size: 20px;
+        font-family: "Playfair Display, sans-serif";
+        line-height: 20px;
+        font-weight: bold;
+        padding-top: 5px;
+      }
+      .heading-content{
+        color: grey;
+        font-size: 9px;
+        font-family: "poppins,serif";
+        line-height: 0px;
+        padding-right: 10px !important;
+      }
+      .horizontal{
+        width: 30px;
+        color: grey;
+        margin: 0px 0px 6px;
+      }
+      .text-container .button{
+        margin-bottom: 20px;
+
+      }
+      .button{
+        padding: 4px 8px;
+        font-size: 8px;
+        margin-bottom: 20px !important;
+      }
+      .bg-img{
+        width: 100%;
+        height: auto;
+      }
+      .collection {
+        padding-left: 90px;
+      }
+      .bg{
+        width: 100%;
+        height: auto;
+      }
+      .card-bod{
+        position: relative;
+        top: unset;
+        right: 6%;
+        width: 100%;
+        height: auto;
+        padding: 50px 20px;
+      }
+      .contents{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display:flex;
+        justify-content: center;
+      }
+      .logos{
+
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       justify-items: center;
+       gap: 40px;
+
+      }
+     .cd .im{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     }
+     .sale{
+      visibility: hidden;
+     }
+
+
+     .imgt{
+      height: 550px;
+     }
+      .carousel-inner .d-block{
+        height: 250px;
+        width: 100%;
+      }
+     
+      
+
+}
+
+@media only screen and (min-width:1200px){
+  .sale{
+   margin-left: -0px;
+  }
+  .cards:hover .icons{
+    opacity: 1;
+    margin-left:1%;
+    margin-top: 8%;
+    transition: 0.7s;
+    
+    }
+
+    .abt-img{
+      margin-left: -60px;
+    }
+    .imgt{
+      width: 100%;
+      height: 600px;
+    }
+}
+

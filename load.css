@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  font-family: "Quicksand";
+  font-weight: 500;
+  padding-top: 20px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.image{
+  width: 170px;
+  height: 47px;
+}
+ .navbar-nav{
+    gap: 30px;
+    margin-right: 50px;
+}
+/* .content-404{
+    margin-left: 500px;
+    margin-top: 100px;
+} */
+.content-404 .title-404 {
+    font-size: 100px;
+    margin-top:150px;
+    font-weight: 600;
+    font-family: "Quicksand";
+    
+    line-height: 1.2;
+    color: inherit;
+}
+.content-404 .page-title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Quicksand";
+    font-size: #212529;
+    /* margin-left: 400px;
+    
+    margin-right: 50px; */
+}
+.content-404 .sub-title {
+    color: #a8a8a8;
+    font-size: 16px;
+    margin-top: 15px;
+    
+    font-family: "Quicksand";
+
+}
+.content-404 .sub-link a {
+    color: #98a86d;
+    text-decoration: none;
+}
+.content-404 .sub-link {
+    color: #a8a8a8;
+    font-size: 14px;
+   
+   
+    font-family: "Quicksand";
+}
+.content-404 .search input[type=text] {
+    padding:17px 25px;
+    max-width: 100%;
+    background-color: transparent;
+    border: 1px solid #d6d6d6;
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    width: 35%;
+    
+}
+.content-404 .search button[type=submit] {
+    color: #fff;
+    font-size: 25px;
+    background: #000;
+    padding: 9px 20px;
+    position: absolute;
+    
+    transition: .3s;
+}
+.search button[type=submit]:hover{
+   background-color: #98a86d ;
+}
+.div{
+    margin-top: 80px;
+    padding-left: 80px;
+    color: #95a674;
+    font-family: EB Garamond;
+    font-size: 22px;
+    line-height: 72px;
+    font-weight: 300;
+    font-style: italic;
+    /* margin: 0px auto -6px;*/
+  }
+p{
+  font-size: 15px;
+  font-family: "Nunito Sans" , sans-serif ;
+  color: #3d3d3d;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 15px 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  padding-left: 0;
+}
+
+input:focus{
+  outline: none;
+}
+a:hover,
+a:focus{
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+
+
+.footer{
+  background:#f8f9fa;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.footer-about{
+  margin-bottom: 30px;
+}
+.footer-about .footer-logo {
+  margin-bottom: 30px;
+  width:200px;
+}
+.footer-about p{
+  color: #b7b7b7;
+  margin-bottom: 30px;
+}
+.footer-widget{
+  margin-bottom: 30px;
+}
+.footer-widget h6{
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.footer-widget ul li{
+  line-height: 36px;
+  list-style: none;
+}
+.footer-widget ul li a{
+  color: #b7b7b7;
+  font-size: 15px;
+}
+.footer-widget ul li a:hover{
+  color: #e53637;
+}
+.footer-widget .footer-newslatter p{
+  color: #b7b7b7;
+}
+.footer-widget .footer-newslatter form{
+  position: relative;
+}
+.footer-widget .footer-newslatter form input{
+  width: 100%;
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid black;
+}
+.footer-widget .footer-newslatter form input::placeholder{
+  color: #b7b7b7;
+}
+.footer-widget .footer-newslatter form button{
+  color: #b7b7b7;
+  font-size: 16px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+.footer-copyright-text{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+.footer-copyright-text p{
+  color: #b7b7b7;
+  margin-bottom: 0;
+}
+.footer-copyright-text p i{
+  color: #e53637;
+}
+.footer-copyright-text p a{
+  color: #e53637;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a-style{
+  font-size: 16px;
+  font-family: "Poppins",sans-serif;
+  }
+  .card-txt{
+  font-size: 18px;
+  font-family: "Quicksand";
+  color: #000000;
+  }
+  .a-style a{
+  font-size: 16px;
+  font-weight: 400px;
+  
+  /* color:rgb(252 101 57) !important ; */
+  }
+  .a-style1{
+  font-size: 16px;
+  color:#98a86d ;
+  font-family: "Poppins",sans-serif;
+  }
+  .a-style1 a{
+      font-family: "Quicksand";
+      font-size: 15px;
+      font-weight: 700;
+      color: #98a86d;
+  }
+  .side-txt{
+  margin-left: 160px;
+  }
+  .icons {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 15%;
+  margin-left: 0;
+  width: 15px;
+  height: 15px;
+  background: #fff ;
+   
+    box-shadow: 0 15px 25px #00000014;
+    opacity: 0;
+   
+}
+.icons1 {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 15%;
+  margin-left: 0;
+  width: 15px;
+  height: 15px;
+  background: #fff ;
+   
+    box-shadow: 0 15px 25px #00000014;
+    opacity: 0;
+   
+}
+
+
+   
+  .cards:hover .icons{
+  opacity: 1;
+  margin-left:1%;
+  margin-top: 8%;
+  transition: 0.7s;
+  
+  }
+  .cards:hover .icons1{
+    opacity: 1;
+    margin-left:1%;
+    margin-top: 3%;
+    transition: 0.7s;
+    
+    }
+
+  .sale{
+  background-color: transparent;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Poppins",sans-serif;
+  width: 70px;
+  border-style: none;
+  position: absolute;
+  display: block;
+  top: 30%;
+  margin-left: 15%;
+  }
+  .sale4{
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    width: 70px;
+    border-style: none;
+    position: absolute;
+    display: block;
+    top: 30%;
+    margin-left: 15%;
+    }
+  .sale3{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    width: 70px;
+    border-style: none;
+    position: absolute;
+    display: block;
+    top: 10%;
+    margin-left: 1%;
+    }
+  .sale1{
+  background-color:white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Poppins",sans-serif;
+  width: 50px;
+  border-style: none;
+  position: absolute;
+  display: block;
+  top: 30%;
+  margin-left: 1%;
+  }
+  .sale2{
+    
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    width: 60px;
+    border-style: none;
+    position: absolute;
+    display: block;
+    top: 10%;
+    margin-left: 18%;
+    }
+  .cards-shop{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand";
+      font-size: 45px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #000;
+      letter-spacing: -1px;
+      text-transform: none;
+      
+  }
+  .cards-shop1{
+      font-family: Quicksand;
+      font-size: 16px;
+      font-weight: 500;
+      color: #777;
+      padding-top: 15px;
+      display: block;
+      display: flex;
+      justify-content: center;
+  }
+  .imgt{
+    width:100%;
+    background-size: cover;
+    height: 500px;;
+    background-repeat: no-repeat;
+  }
+   
+  .cd{
+      
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+  }
+.centered-banner{
+  position: absolute;
+  display: block;
+  justify-content: center;
+  bottom: 60px;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  font-family: "Quicksand";
+  font-size: 15px;
+ 
+  color:black !important;
+  /* width: 400px;
+  height: 200px; */
+  text-decoration:none;
+  text-transform: none;
+
+}
+.centered-banner1{
+  color: black !important;
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: 500;
+  position: absolute;
+  display: block;
+  justify-content: center;
+  bottom:280px;
+  left: 35%;
+  /* transform: translate(-50%, -50%);
+  width: 350px;
+  height: 150px; */
+  letter-spacing: 1.5px;
+  
+}
+.centered-banner2{
+  color: black !important;
+  font-family: "Quicksand";
+  position: absolute;
+  
+  
+  bottom:240px;
+  left: 43%;
+ 
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: Quicksand;
+    letter-spacing: .1em;
+  letter-spacing: 1.5px;
+  
+}
+.btn_shop{
+margin-top: 25px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 12px;
+    position: absolute;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    font-family: Quicksand;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    transition: .3s;
+    bottom:170px;
+    left: 43%;
+   
+}
+.btn_shop:hover{
+  background-color: #95a674;
+}
+@media only screen and (max-width:600px){
+  .centered-banner1{
+    display: block;
+    margin-left: -140px;
+  }
+  .centered-banner2{
+    margin-left: -60px;
+  }
+  .btn_shop{
+    margin-left: -60px;
+    margin-bottom: 20px;
+  }
+  .sale2{
+    margin-top: -150px;
+    margin-left:330px;
+  }
+  .sale3{
+    margin-top: -140px;
+  }
+  .sale{
+    margin-top: -480px;
+    margin-left: -1px;
+  }
+  .sale1{
+    margin-top: 30px;
+  }
+  .sale4{
+    top: 79%;
+    margin-left: 80%;
+  }
+} 

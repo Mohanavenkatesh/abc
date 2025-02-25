@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  font-family: "Quicksand";
+  font-weight: 500;
+  padding-top: 20px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.image{
+  width: 170px;
+  height: 47px;
+}
+ .navbar-nav{
+    gap: 30px;
+    margin-right: 50px;
+}
+/* .content-404{
+    margin-left: 500px;
+    margin-top: 100px;
+} */
+.content-404 .title-404 {
+    font-size: 100px;
+    margin-top:150px;
+    font-weight: 600;
+    font-family: "Quicksand";
+    
+    line-height: 1.2;
+    color: inherit;
+}
+.content-404 .page-title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Quicksand";
+    font-size: #212529;
+    /* margin-left: 400px;
+    
+    margin-right: 50px; */
+}
+.content-404 .sub-title {
+    color: #a8a8a8;
+    font-size: 16px;
+    margin-top: 15px;
+    
+    font-family: "Quicksand";
+
+}
+.content-404 .sub-link a {
+    color: #98a86d;
+    text-decoration: none;
+}
+.content-404 .sub-link {
+    color: #a8a8a8;
+    font-size: 14px;
+   
+   
+    font-family: "Quicksand";
+}
+.content-404 .search input[type=text] {
+    padding:17px 25px;
+    max-width: 100%;
+    background-color: transparent;
+    border: 1px solid #d6d6d6;
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    width: 35%;
+    
+}
+.content-404 .search button[type=submit] {
+    color: #fff;
+    font-size: 25px;
+    background: #000;
+    padding: 9px 20px;
+    position: absolute;
+    
+    transition: .3s;
+}
+.search button[type=submit]:hover{
+   background-color: #98a86d ;
+}
+.div{
+    margin-top: 80px;
+    padding-left: 80px;
+    color: #95a674;
+    font-family: EB Garamond;
+    font-size: 22px;
+    line-height: 72px;
+    font-weight: 300;
+    font-style: italic;
+    /* margin: 0px auto -6px;*/
+  }
+p{
+  font-size: 15px;
+  font-family: "Nunito Sans" , sans-serif ;
+  color: #3d3d3d;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 15px 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  padding-left: 0;
+}
+
+input:focus{
+  outline: none;
+}
+a:hover,
+a:focus{
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+
+
+.footer{
+  background:#f8f9fa;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.footer-about{
+  margin-bottom: 30px;
+}
+.footer-about .footer-logo {
+  margin-bottom: 30px;
+  width:200px;
+}
+.footer-about p{
+  color: #b7b7b7;
+  margin-bottom: 30px;
+}
+.footer-widget{
+  margin-bottom: 30px;
+}
+.footer-widget h6{
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.footer-widget ul li{
+  line-height: 36px;
+  list-style: none;
+}
+.footer-widget ul li a{
+  color: #b7b7b7;
+  font-size: 15px;
+}
+.footer-widget ul li a:hover{
+  color: #e53637;
+}
+.footer-widget .footer-newslatter p{
+  color: #b7b7b7;
+}
+.footer-widget .footer-newslatter form{
+  position: relative;
+}
+.footer-widget .footer-newslatter form input{
+  width: 100%;
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid black;
+}
+.footer-widget .footer-newslatter form input::placeholder{
+  color: #b7b7b7;
+}
+.footer-widget .footer-newslatter form button{
+  color: #b7b7b7;
+  font-size: 16px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+.footer-copyright-text{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+.footer-copyright-text p{
+  color: #b7b7b7;
+  margin-bottom: 0;
+}
+.footer-copyright-text p i{
+  color: #e53637;
+}
+.footer-copyright-text p a{
+  color: #e53637;
+}
+.scroll-top{
+  position:fixed;
+  bottom: 2.3rem;
+  right: 2.3rem;
+
+}
+.scroll-top i{
+  background:#95a674;
+  color: white;
+  font-size: 22px;
+  padding: 12px;
+  border-radius: 30px;
+}
+
+
+@media only screen and (max-width:600px){
+  .content-404 .page-title{
+    font-size: 20px;
+  }
+  .content-404 .sub-title{
+    font-size: 14px;
+  }
+  .content-404 .search{
+    margin-right: 100px;
+   
+  }
+}
